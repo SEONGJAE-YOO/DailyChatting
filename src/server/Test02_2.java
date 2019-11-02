@@ -32,7 +32,7 @@ public class Test02_2 {
     PrintStream out = new PrintStream(out0);
     System.out.println("=> 입출력 스트림 준비 완료!");
    
-    // 6) 키보드에서 서버에 보낼 메시지를 입력 받는다.  
+    // 6) 키보드에서 서버에 보낼 메시지를 입력 받는다.    
     System.out.print("서버에 보낼 메시지: ");
     String message = keyScanner.nextLine();
    

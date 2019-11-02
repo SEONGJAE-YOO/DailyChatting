@@ -7,13 +7,13 @@ import java.net.Socket;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.ServerSocket;    
-import java.net.Socket;
+import java.net.Socket;  
 public class Test01_1 {
   public static void main(String[] args) throws Exception {
     System.out.println("서버 실행 중...");
    
     // 1) 서버 소켓 만들기
-    ServerSocket serverSocket = new ServerSocket(8888);
+    ServerSocket serverSocket = new ServerSocket(5000);
   
     // 2) 대기열의 첫 번째 클라이언트의 접속을 승인한다.
     // => 만약 대기 중인 클라이언트가 없다면, 리턴하지 않고 접속할 때까지 기다린다.

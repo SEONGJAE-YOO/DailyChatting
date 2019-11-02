@@ -12,7 +12,7 @@ public class Test02_1 {
 	    // ServerSocket(port, backlog)
 	    // => port: 포트번호
 	    // => backlog: 대기열의 크기
-	    ServerSocket serverSocket = new ServerSocket(8888, 3);
+	    ServerSocket serverSocket = new ServerSocket(5000, 3);
 	    System.out.println("=> 서버 소켓 생성 완료!");
 	   
 	    // 대기열에 기다리고 있는 클라이언트가 없다면, 리턴하지 않는다.

@@ -1,4 +1,4 @@
-import java.awt.BorderLayout; 
+import java.awt.BorderLayout;  
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -42,7 +42,7 @@ import org.w3c.dom.events.MouseEvent;
 import com.mysql.jdbc.PreparedStatement;
 
 public class ChattingListForm extends JFrame implements ActionListener {
-	private static final String SERVER_IP = "192.168.25.4";	
+	private static final String SERVER_IP = "169.254.116.139"; 
 	private static final int SERVER_PORT = 5000;
 	
 	Color color;

@@ -14,7 +14,7 @@ public class Test01_2 {
     //    개발자가 신경쓸 필요가 없다.
     //    즉 쌍방 모두 포트 번호가 반드시 있어야 한다는 의미!
     //
-    Socket socket = new Socket("192.168.25.4", 8888);
+    Socket socket = new Socket("169.254.116.139", 5000);
    
     // 2) 소켓을 통해 입출력을 할 수 있도록 스트림 객체를 만든다.
     InputStream in = socket.getInputStream();
